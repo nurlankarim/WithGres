@@ -1,0 +1,2 @@
+server_address: "localhost:8080"
+db_url: "host=localhost port=5432 user=postgres password=postgres dbname=postgres sslmode=disable"
