@@ -22,6 +22,7 @@ func Start() error {
 }
 
 func configureRouter() {
+	
 	http.HandleFunc("/markets", services.FindAllMarkets)
 	http.HandleFunc("/markets/one", services.FindMarketById)
 	http.HandleFunc("/markets/add", services.CreateMarket)
