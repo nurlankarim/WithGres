@@ -11,6 +11,4 @@ func main() {
 	if err := server.Start(); err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("Server working")
-
 }
