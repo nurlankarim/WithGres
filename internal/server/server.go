@@ -15,7 +15,8 @@ func Start() error {
 	s := &http.Server{
 		Addr: cfg.ServerAddress,
 	}
-	fmt.Println("Server is Working")
+
+	fmt.Printf("Server is Working on %s port", cfg.ServerAddress)
 
 	return s.ListenAndServe()
 }
